@@ -16,8 +16,10 @@ class GenreFactory extends Factory
      */
     public function definition()
     {
-        return [
-            //
+        return[
+            'zanr' => $this->faker->name(),
+            
+
         ];
     }
 }
